@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+@font-face {
+    font-family: 'Kanit';
+    src: url('Kanit-Medium.ttf') format('ttf'),
+         url('Kanit-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt',  sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("cloudbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 9px 40px;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 10;
+    box-shadow: 1px px;
+}
+
+header .logo  {
+    width: auto;
+    height: 65px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul il {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul il a {
+    font-family: 'Kanit';
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 15px;
+}
+
+header ul il a:hover {
+    background-color: #777777;
+    color:#ffff
+  }
+
+.image-area
+{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-area2
+{
+    width: 100%;
+    height: 3300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-area3
+{
+    width: 100%;
+    height: 3300px;
+    overflow: hidden;
+    position: relative;
+}
+
+div img
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+
+.space{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+}
+
+.text{
+    font-family: 'Kanit';
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-color: #ffff;
+}
+
+.download{
+    -webkit-text-fill-color: #103099;
+    text-decoration: underline;
+}
+
+.image-wrapper {
+    position: relative;
+  }
+
+.ab1{
+    position: absolute;
+    top: 79.68%;
+    left: 64.56%;
+    width: 26%;
+    height: auto;
+    border-color: #000000;
+    border-radius: 37px;
+    border: 4px solid black;
+}
+.end-text{
+    font-family: 'Kanit';
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-text-fill-color: #858585;
+    background-color: #ffff;
+}
