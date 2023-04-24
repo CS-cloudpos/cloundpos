@@ -181,7 +181,7 @@ header ul il a:hover {
     transform: translateY(-55%);
 }
 
-.contactform .inputbox input[type="submit"] {
+.contactform .inputbox input[type='button'] {
     width: 100px;
     background: #020c42;
     color: #fff;

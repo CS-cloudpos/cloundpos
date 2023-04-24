@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="authur" content="iterrius">
+    <meta name="author" content="iterrius">
     <link rel="shortcut icon" type="img" href="https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81o2EkaJLSjfGMpSV-DPhsFTEelj0Z0xS8dFNys7oV3Rij0X3plZVJ5w-RxGJNCUUyTvl6DxPJ1I1sfzjXs5cm5lRZRaTA=w1920-h897">
     <link rel="stylesheet" href="contactstyle.css">
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
     <title>Contact</title>
 </head>
 <body>
@@ -29,22 +29,22 @@
             <p> based on Android application that most people like to use.</p>
         </div>
             <div class="contactform">
-                <form>
+                <form id="email-form">
                     <h2>Send Massage</h2>
                     <div class="inputbox">
-                        <input type="text" name="" required="required" id="fname">
+                        <input type="text" name="fname" required="required" id="fname">
                         <span>Full Name</span>
                     </div>
                     <div class="inputbox">
-                        <input type="text" name="" required="required" id="email">
+                        <input type="text" name="email" required="required" id="email">
                         <span>Email</span>
                     </div>
                     <div class="inputbox">
-                        <input type="text" name="" required="required" id="massage">
+                        <input type="text" name="massage" required="required" id="massage">
                         <span>Type your Massage</span>
                     </div>
                     <div class="inputbox">
-                        <input type="submit" name="" value="Send" id="submit">
+                        <input type="button" value="Send" onclick="sendEmail()"></button>
                     </div>
                 </form>
             </div>
@@ -69,6 +69,7 @@
     </footer>
 </body>
 
-
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="contactapp.js"></script>
+
 </html>
