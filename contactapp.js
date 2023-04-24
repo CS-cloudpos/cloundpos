@@ -9,11 +9,11 @@ function sendEmail(){
     console.log("Clicked")
 
     let ebody = `
-        <b>Full Name: </b>${fname};
+        <b>Full Name: </b>${fname}
         <br>    
-        <b>Email: </b>${email};
+        <b>Email: </b>${email}
         <br>
-        <b>Message: </b>${message};
+        <b>Message: </b>${message}
     `;
 
     Email.send({
