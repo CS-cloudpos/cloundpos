@@ -16,7 +16,7 @@
 
 body {
     min-height: 100vh;
-    background-image: url("cloudbackground.png");
+    /*background-image: url("cloudbackground.png");*/
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -63,8 +63,6 @@ header ul il a:hover {
     background-color: #777777;
     color:#ffff
   }
- 
-
 
   .end-text{
     font-family: 'Kanit';
@@ -75,4 +73,23 @@ header ul il a:hover {
     text-align: center;
     -webkit-text-fill-color: #858585;
     background-color: #ffff;
+}
+      
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url("cloudbackground.png");
+    z-index: -10;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
